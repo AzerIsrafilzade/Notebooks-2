@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Notebooks-2</title>
+</head>
+<body>
+    
+    <table>
+
+        <tr>
+            <th>Model</th>
+            <th>Price</th>
+            <th>Storage</th>
+            <th>Stock-status</th> 
+        </tr>
+
+        <tr>
+            <td id="model"></td>
+            <td id="price"></td>
+            <td id="storage"></td>
+            <td id="stockStatus"></td>
+
+        </tr>
+
+       
+    </table>
+
+
+    <script> 
+
+        const modelTdTag = "model"
+        const priceelTdTag = "price"
+        const storageTdTag = "storage"
+        const stockStatusTdTag = "stockStatus"
+
+        
+        const model = `ASUS`
+        const price = `3000manat`
+        const storage = `500GB`
+        const stockStatus = false
+
+        
+        document.getElementById(`model`).innerHTML = model;
+        document.getElementById(`price`).innerHTML = price;
+        document.getElementById(`storage`).innerHTML = storage;
+        document.getElementById(`stockStatus`).innerHTML = stockStatus;
+        
+
+    </script>
+</body>
+</html>
